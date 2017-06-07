@@ -1,2 +1,4 @@
 # summerHues
-A fun project I took upon to improve my coding skills. And have fun.
+
+A project which is really a collection of mini-projects that just really helps me present every idea
+
