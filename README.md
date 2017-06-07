@@ -1,4 +1,8 @@
 # summerHues
 
-A project which is really a collection of mini-projects that just really helps me present every idea
+A collection of web-apps that helped me get clear with all the skills i learned in Summers.
+This project was inspired by Jennifer Dewalt( check out ww.jenniferdewalt.com).
+
+
+
 
