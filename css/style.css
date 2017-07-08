@@ -1,0 +1,269 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Wavehaus-66Book";
+	color: #5e0231;
+}
+
+body{
+	background-color: #dbc3d0;
+}
+
+
+/*-------------------heading--------------------------*/
+
+@font-face{
+	font-family:"Wavehaus-66Book";
+	src: url("Wavehaus-66Book.otf");
+}
+
+@font-face{
+	font-family:"Wavehaus-95SemiBold";
+	src: url("Wavehaus-95SemiBold.otf");
+}
+
+@font-face{
+	font-family:"Casual-Regular";
+	src: url("Casual-Regular.ttf");
+}
+
+
+.head{
+	width:100vw;
+	height: 90vh;
+	background-color: #dbc3d0;
+	/*border-bottom:4px solid #e3e3e3;*/
+}
+
+.portfoliolink{
+	font-family:"Wavehaus-95SemiBold";
+	display: inline-block;
+	/*background-color: red;*/
+	margin-top: 3vh;
+	margin-left: 3vw;
+	font-size: 1.5rem;
+}
+
+.blog{
+	position:absolute;
+	right:5vw;
+	font-family:"Wavehaus-95SemiBold";
+	top:2vh;
+}
+
+.content{
+	max-width: 60%;
+	margin: 0 auto;
+	font-size: 2.5rem;
+	font-family:"Wavehaus-95SemiBold";
+	word-spacing: .3rem;
+	line-height: 3.3rem;
+	letter-spacing: .07rem;
+	margin-top: 20vh;
+	margin-bottom: 10vh;
+}
+
+.scroll{
+	max-width: 60%;
+	margin: 0 auto;
+}
+
+.intext{
+	border-bottom: 3px solid #dbe9d8;
+	transition: color,border-bottom,background 1s;
+}
+
+.intext:hover{
+	color: #dbc3d0;
+	background:white;
+	border-bottom: 3px solid #5e0231;
+}
+
+/*----------------projects---------------*/
+
+.half{
+	width:50vw;
+	height:80vh;
+}
+
+.one{
+	background: url("../images/Screen Shot 2017-06-11 at 10.39.38 PM.png") 
+				no-repeat center center;
+	float: left;
+}
+
+.two{
+	background: url("../images/Screen Shot 2017-06-11 at 10.42.36 PM.png")
+				no-repeat center center;
+	float:left;
+}
+
+.three{
+	background: url("../images/Screen Shot 2017-06-29 at 12.55.33 PM.png")
+				no-repeat center center;
+	float:left;
+}
+
+.four{
+	background: url("../images/Screen Shot 2017-06-29 at 1.01.25 PM.png")
+				no-repeat center center;
+	float:left;
+}
+
+.five{
+	background: url("../images/Screen Shot 2017-06-29 at 1.14.30 PM.png")
+				no-repeat left center;
+	float:left;
+}
+
+.six{
+	background: url("../images/Screen Shot 2017-06-29 at 1.14.46 PM.png")
+				no-repeat center center;
+	float:left;
+}
+
+.seven{
+	background: url("../images/Screen Shot 2017-07-06 at 6.27.37 PM.png")
+				no-repeat center center;
+	float:left;
+}
+
+
+.onhover{
+	width:100%;
+	height: 100%;
+	font-size: 4rem;
+	color:black;
+	background: transparent;
+	opacity: 0;
+	font-style: italic;
+	font-family:"Wavehaus-95SemiBold";
+	text-align: center;
+	padding-top: 40%;
+	transition: background,opacity 1.3s;
+}
+
+.onhover:hover{
+	background:#dbc3d0;
+	opacity: 0.7;
+}
+
+
+
+
+
+
+
+/*---------------belowproject----------------*/ 
+
+.belowproject{
+	font-size: 2.5rem;
+	clear:both;
+	/*border-bottom: 1px solid rgba(34,34,34,0.5);*/
+	
+}
+
+.belowproject h1{
+	background-color: white;
+	padding-top: 9vh;
+	/*margin-top: 100vh;*/
+	/*border: 2px solid black;*/
+	color: black;
+	padding-bottom: 10vh;
+	/*border-bottom: 2px solid rgba(45,45,45,0.4);*/
+	text-align:center;
+
+}
+
+
+
+/*-----------------sites--------------*/
+
+.sites{
+	font-family:"Wavehaus-95SemiBold";
+	height: 30vh;
+	background:white;
+}
+
+
+.sites ul{
+	text-align: center;
+	margin-left: 9vw;
+	/*background-color: green;*/
+
+	
+
+}
+.sites ul li{
+	display: inline-block;
+	font-size: 2rem;
+	padding-right: 4vw;
+	margin-right: 7vw;
+	margin-top:5vh;
+	padding-bottom: 0;
+}
+
+.google{
+	padding-right: 4vw;
+	color:#b56969;
+	border-bottom: 2px solid #b56969;
+	transition: background,color 1s;
+}
+
+.github{
+	color:black;
+	padding-right: 4vw;
+	border-bottom: 2px solid black;
+	transition: background,color 1s;
+}
+
+.linkedin{
+	color: blue;
+	padding-right: 4vw;
+	border-bottom: 2px solid blue;
+	transition-timing-function: ease-in-out;
+	transition: background,color 1s;
+}
+
+.google:hover{
+	color:white;
+	background: #b56969;
+}
+
+.github:hover{
+	color:white;
+	background: black;
+}
+
+.linkedin:hover{
+	color:white;
+	background: blue;
+}
+
+.mail{
+	width: 100%;
+	background: rgba(244,244,244,0.2);
+
+	/*border-top: 2px solid black;*/
+
+}
+
+.mail p{
+	text-align:center;
+	margin: 0 auto;
+	letter-spacing: 0.09rem;
+	font-size: 1.5rem;
+	width:60%;
+	color:gray;
+	/*text-decoration: underline;*/
+	/*border-bottom: 1px solid black;*/
+	
+	/*border: 2px solid black;*/
+	padding:1rem;
+}
+
+
+
+
+
