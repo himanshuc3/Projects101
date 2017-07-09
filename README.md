@@ -6,6 +6,14 @@ This project was inspired by Jennifer Dewalt.
 It contains a random collection of small websites using primarily front-end and some of the back-end.
 These are not optimized by the help of minimization scripts and tools and therefore could be little bit slow in there operation.
 
+The Apps include:
+  * The homepage for the web apps.
+  * Hangman
+  * Quiz
+  * Rock-Paper-Scissors
+  * Madlibs
+  etc......
+
 Peace!!
 
 
