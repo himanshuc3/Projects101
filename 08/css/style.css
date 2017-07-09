@@ -1,0 +1,98 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	
+}
+body{
+	background: #2D8086;
+	color:white;
+
+}
+
+/*------------------font-face--------------*/
+
+
+
+@font-face{
+	src: url("ProductSans-Bold-Web.woff2");
+	font-family: "ProductSans-Bold-Web";
+}
+
+@font-face{
+	src: url("Roboto-Regular.woff2");
+	font-family: "Roboto-Regular";
+}
+
+
+/*------------------calc--------------*/
+
+.top{
+	position:absolute;
+	top:5vh;
+	left: 3vw;
+	font-family: "ProductSans-Bold-Web";
+	text-transform: uppercase;
+	font-size: 2vw;
+	color:#A3D6E0;
+
+}
+
+
+.calc{
+	width:30vw;
+	margin: 0 auto;
+	margin-top: 5vh;
+	/*border-left: 2px solid black;*/
+}
+
+.calc > div{
+	width:25%;
+	height:15vh;
+	float:left;
+	background: rgba(0,0,0,0.3);
+	text-align: center;
+	line-height: 15vh;
+	cursor: pointer;
+	font-size: 2vw;
+	position:relative;
+	font-family: "ProductSans-Bold-Web";
+	border: 10px solid rgba(255,255,255,0);
+	/*border-radius: 7px;*/
+	/*user-select: none;*/
+}
+
+
+
+.calc .clear{
+	width: 25%;
+	background: #B4A83C;
+}
+
+.calc .screen{
+	width: 75%;
+	cursor: default;
+	text-align: right;
+	background: rgba(31,44,92,0.2);
+}
+
+.calc .op{
+	background: rgba(195,87,75,0.8);
+	color: white;
+	font-family: "Roboto-Regular";
+}
+
+.calc .eval{
+	background: #CB9162;
+	width:100%;
+
+}
+
+
+
+
+
+div:active{
+	top:4px;
+	background:white;
+}
