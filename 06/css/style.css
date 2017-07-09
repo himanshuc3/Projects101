@@ -1,0 +1,415 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: url("playstation-pattern.png") repeat;
+	font-family: "QanelasBlack";
+	text-transform: uppercase;
+	word-wrap: break-word;
+}
+
+/*------------------fonts---------------*/
+
+@font-face{
+	src: url("QanelasBlack.woff2");
+	font-family: "QanelasBlack";
+}
+
+
+
+
+
+
+
+/*------------------above&below---------------*/
+
+.above{
+	margin: 0 auto;
+	/*height: 40vh;*/
+	width: 90vw;
+	margin-top: 15vh;
+	cursor:default;
+	line-height: 6vw;
+	/*background: red;*/
+}
+
+
+.below{
+	margin: 0 auto;
+	/*height: 40vh;*/
+	width: 90vw;
+	margin-bottom: 15vh ;
+	cursor:default;
+	line-height: 6vw;
+	/*background: green;*/
+}
+
+
+
+
+
+
+/*------------------above-para---------------*/
+
+.backgroundcolor{
+	font-family: "QanelasBlack";
+	text-transform: uppercase;
+	color: #667467;
+	font-size: 4vw;
+	transition: background-color 1s;
+	padding: 2px;
+	cursor: default;
+}
+
+.backgroundcolor:hover{
+	background-color: #ede9ce;
+}
+
+.color{
+	font-family: "QanelasBlack";
+	
+	color: rgba(134,134,134,0.5);
+	font-size: 4vw;
+	letter-spacing: .4vw;
+	transition: color 1s;
+}
+
+.color:hover{
+	color:#f2b632;
+}
+
+.height{
+	font-family: "QanelasBlack";
+	/*text-transform: uppercase;*/
+	background: rgba(134,134,134,0.3);
+	font-size: 5vw;
+	height: 5vw;
+	width: 22vw;
+	/*float: right;*/
+	color: #ba9077;
+	overflow:hidden;
+	letter-spacing: .4vw;
+	background-size: 0;
+	transition: height 0.5s ease-in;
+}
+
+.height:hover{
+	height:0;
+}
+
+.opacity{
+	font-family: "QanelasBlack";
+	/*text-transform: uppercase;*/
+	color: #3b3a36;
+	/*background: red;*/
+	font-size: 4vw;
+	letter-spacing: .4vw;
+	transition: opacity .7s;
+}
+
+.opacity:hover{
+	opacity:0.1;
+}
+
+.border-radius{
+	/*text-transform: uppercase;*/
+	color: #daad86;
+	/*background: red;*/
+	font-size: 3vw;
+	font-family: "QanelasBlack";
+	padding: .5vw;
+	border: 4px solid #c0dfd9;
+	letter-spacing: .2vw;
+	transition: border-radius 1s ease-in-out;
+}
+
+.border-radius:hover{
+	border-radius: 200px;
+}
+
+.box-shadow{
+	/*text-transform: uppercase;*/
+	color: #3b3a36;
+	font-family: "QanelasBlack";
+	/*background: red;*/
+	font-size: 3vw;
+	border: 4px solid black;
+	padding: 1vw;
+	/*background: gray;*/
+	letter-spacing: .4vw;
+	box-shadow: 0 0 black;
+	transition: box-shadow .7s;
+}
+
+.box-shadow:hover{
+	box-shadow: 10px 10px black;
+}
+
+.textshadow{
+	font-family: "QanelasBlack";
+	
+	color: #935347;
+	/*border: 2px solid red;*/
+	font-size: 4vw;
+	letter-spacing: .4vw;
+	text-shadow: 0 0 white;
+	/*opacity: 1;*/
+	/*transform: translateX(180px);*/
+	transition: text-shadow 0.7s;
+	
+}
+
+.textshadow:hover{
+	text-shadow: 0 0 rgba(255,255,255,0), 
+				-45px -45px 0 #c43235, 
+				-30px -30px 0 #300032,
+					0 0 white,
+				 30px  30px 0 red,
+				 45px 45px 0 orange;
+	/*opacity:0.3;*/
+}
+
+.border{
+	
+	color: #b0aac2;
+	font-size: 4vw;
+	border: 0px solid black;
+	letter-spacing: .4vw;
+	transition: border 1s;
+}
+
+.border:hover{
+	border:0.5vw solid black;
+}
+
+.position{
+	background: url("small_steps.png");
+	background-position:left;
+	color: #89bdd3;
+	font-size: 4vw;
+	letter-spacing: .4vw;
+	transition: background-position 1s;
+}
+
+.position:hover{
+	background-position:right;
+}
+
+.spacing{
+	color: #fccdd3;
+	font-size: 4vw;
+	letter-spacing: .2vw;
+	transition: letter-spacing 1s;
+}
+
+.spacing:hover{
+	letter-spacing: 2vw;
+}
+
+.pad{
+	color: #fccdd3;
+	font-size: 4vw;
+	padding-left: 0;
+	background: #06000a;
+	letter-spacing: .2vw;
+	transition: padding-left .5s;
+}
+
+.pad:hover{
+	padding-left: 3vw;
+}
+
+.blur{
+	color: #677077;
+	text-shadow: 0 0 #677077;
+	font-size: 4vw;
+	opacity: 0.7;
+	/*background: black;*/
+	letter-spacing: .2vw;
+	transition: text-shadow 1s;
+}
+
+.blur:hover{
+	text-shadow: 0 0 30px #677077;
+}
+
+.backsize{
+	background-image: url("congruent_pentagon.png");
+	background-size: 50px 50px;
+	font-size: 4vw;
+	color: rgba(113,34,12,0.3);
+	/*background: black;*/
+	letter-spacing: .2vw;
+	transition: background-size 1s;
+}
+
+.backsize:hover{
+	background-size: 200px 200px;
+}
+
+.filter{
+	filter: blur(0px);
+	font-size: 4vw;
+	color: #f2b632;
+	opacity: 0.4;
+	/*background: black;*/
+	letter-spacing: .2vw;
+	transition: filter 1s;
+}
+
+.filter:hover{
+	filter: blur(10px);
+}
+
+.fontsize{
+	font-size: 4vw;
+	color: #6ed3cf;
+	opacity:0.7;
+	/*background: black;*/
+	letter-spacing: .2vw;
+	transition: font-size 1s;
+}
+
+.fontsize:hover{
+	font-size: 10vw;
+}
+
+.rotate{
+	font-size: 4vw;
+	display: inline-block;
+	color: #b56969;
+	opacity:0.7;
+	transform: rotate(0deg);
+	/*background: black;*/
+	letter-spacing: .2vw;
+	transition: transform 1s;
+}
+
+.rotate:hover{
+	transform: rotate(360deg);
+}
+
+.scale{
+	font-size: 4vw;
+	display: inline-block;
+	color: #bbc4ef;
+	opacity:0.7;
+	transform: scale(1);
+	/*background: black;*/
+	letter-spacing: .2vw;
+	transition: transform 0.5s;
+}
+
+.scale:hover{
+	transform: scale(5);
+}
+
+.rotscale{
+	font-size: 4vw;
+	display: inline-block;
+	color: #f2cbbc;
+	opacity:0.7;
+	transform: rotate(0deg) scale(1);
+	/*background: black;*/
+	letter-spacing: .2vw;
+	transition: transform 0.5s;
+}
+
+.rotscale:hover{
+	transform: rotate(400deg) scale(0);
+}
+
+.skew{
+	font-size: 4vw;
+	display: inline-block;
+	color: #935347;
+	opacity:0.7;
+	transform: skew( 0deg,0deg);
+	/*background: black;*/
+	letter-spacing: .2vw;
+	transition: transform 0.5s;
+}
+
+.skew span{
+	color:black;
+}
+
+.skew:hover{
+	transform: skew(10deg,10deg);
+}
+
+.flip{
+	font-size: 4vw;
+	perspective: 700px;
+	display: inline-block;
+	color: #935347;
+	opacity:0.7;
+	transform: rotateX(0deg) rotateY(0deg);
+	/*background: black;*/
+	letter-spacing: .5vw;
+	transition: transform 0.5s;
+}
+
+.flip:hover{
+	transform: rotateX(360deg)rotateY(-35deg);
+}
+
+
+
+
+/*------------------header---------------*/
+
+
+.header{
+	width:100vw;
+	text-transform: uppercase;
+	vertical-align: middle;
+	height:30vh;
+	/*background: green;*/
+	font-size: 4vw;
+	/*margin-top: 10vh;*/
+	text-align:center;
+	line-height:30vh;
+	/*padding-top: 4vh;*/
+	border-top: 1vw solid #9068be;
+}
+
+.header h1{
+	animation-duration: 2s;
+	width:70vw;
+	margin: 0 auto;
+	border-bottom: .5vw solid #3fb0ac;
+	animation-iteration-count: infinite;
+}
+
+.a{
+	color:#c5d5cb;
+}
+
+.n{
+	color:#c0dfd9;
+}
+
+.i{
+	color:#e1e8f0;
+}
+.m{
+	color:#fae596;
+}
+.a2{
+	color:#b56969;
+}
+.t{
+	color:#22264b;
+}
+.e{
+	color:#1d2120;
+}
+.i2{
+	color:#aa863a;
+}
+.e2{
+	color:#b0aac2;
+}
