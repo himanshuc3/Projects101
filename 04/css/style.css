@@ -1,0 +1,198 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+
+body{
+	width:100vw;
+	height:100vh;
+	/*background: red;*/
+	background-repeat: repeat-x repeat-y; 		
+
+}
+
+@font-face{
+	font-family: "Athene";
+	src: url("Athene.otf");
+}
+
+@font-face{
+	font-family: "Aleo-Light";
+	src: url("Aleo-Light.ttf");
+}
+
+@font-face{
+	font-family: "Kirvy-Regular";
+	src: url("Kirvy-Regular.otf");
+}
+
+
+
+
+
+/*---------------head---------------------*/
+.head{
+	background: white;
+	height:40vh;
+	font-family: "Athene";
+	width: 22vw;
+	font-size: 3rem;
+	padding-top: 9vh;
+	float:left;
+	padding-left:1vw;
+}
+
+.mad{
+	text-align: right;
+	letter-spacing: .2rem;
+	color:#e3e0cf;
+}
+
+.libs{
+	margin-top: -3vh;
+	text-align: right;
+	color: #c5d5cb;
+	/*letter-spacing: 1.5rem;*/
+	font-size: 8rem;
+}
+
+
+
+/*---------------menu---------------------*/
+
+.menu{
+	overflow: scroll;
+	height: 60vh;
+	font-family: "Kirvy-Regular";
+	width: 20vw;
+	font-size: 3vw;
+	letter-spacing: .4vw;
+	/*background:yellow;*/
+	text-align: right;
+	float:left;
+	padding-right:1vw;
+}
+
+.menu ul{
+	padding-top:10vh;
+}
+
+.menu ul li{
+	margin-top: 5vw;
+	opacity: 0.2;
+	cursor: pointer;
+	transition: opacity 2s,transform .7s;
+}
+
+.menu ul li:hover{
+	opacity: 1;
+	transform: skew(-10deg,-10deg);
+}
+
+/*-------------stage---------------------*/
+
+.stage{
+	width:77vw;
+	min-height:100vh;
+	background: url("hip-square.png");
+	/*background: red;*/
+	float:right;
+}
+
+.main{
+	font-family: "Aleo-Light";
+	letter-spacing: 0;
+	line-height: 3rem;
+	width:55vw;
+	min-height: 60vh;
+	margin: 0 auto;
+	word-spacing: 1rem;
+	color: rgba(100,100,100,0.5);
+	font-size: 1.1rem;
+	background: white;
+	/*opacity: 0.3;*/
+
+	margin-top:20vh;
+	border: 4px solid rgba(100,100,100,0.4);
+
+}
+
+.main h1{
+	/*background: rgba(227,224,207,0.5);*/
+	text-align:center;
+	/*text-transform: uppercase;*/
+	padding:2rem;
+	padding-bottom: 0rem;
+	/*border: 6px solid white;*/
+	padding-top: 2rem;
+}
+
+.main h1:first-child{
+	margin-top:5rem;
+}
+.main h1 span{
+	color: rgba(200,200,200,0.5);
+	border-bottom: 1px dotted rgba(0,0,0,0.3);
+}
+
+.one{
+	letter-spacing: 0rem;
+	font-size: 4vw;
+}
+
+.two{
+	letter-spacing: .3rem;
+	font-size: 4vw;
+}
+
+
+.arrow{
+	text-align: center;
+	height: 7vh;
+	width:10vw;
+	background: white;
+	margin: 0 auto;
+
+}
+
+.arrow i{
+	margin-top: .5rem;
+}
+
+.lib{
+	background: rgba(255,255,255,0.7);
+	border: none;
+}
+
+
+
+.content{
+	font-size: 3vw;
+	word-spacing: 1vw;
+	letter-spacing: .15vw;
+	line-height: 5vw;
+	font-style: italic;
+	color: #476827;
+	opacity: 0.6;
+}
+
+.lib{
+	padding-top: 1vw;
+	padding-bottom: 3vw;
+}
+
+.word{
+	color: white;
+	font-size: 3vw;
+	background: black;
+	border-radius: 5px;
+	padding: 1vw;
+	padding-top: .5vw;
+	padding-bottom: .5vw;
+}
+
+
+
+
