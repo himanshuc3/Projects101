@@ -82,6 +82,10 @@ body{
 
 /*----------------projects---------------*/
 
+
+.projects{
+	width:100vw;
+}
 .half{
 	width:50vw;
 	height:80vh;
