@@ -107,6 +107,68 @@ $(".seven").mouseleave(function(){
 		$(".onhover").remove();
 });
 
+$(".eight").mouseenter(function(){
+		projectname = "";
+		projectname ='<div class="onhover"';
+		projectname += '<h1>';
+		projectname += '<span class="num">08</span> Calc';
+		projectname += '</h1></div>';
+		$(this).append(projectname);
+});
+
+
+$(".eight").mouseleave(function(){
+		
+		$(".onhover").remove();
+});
+
+$(".nine").mouseenter(function(){
+		projectname = "";
+		projectname ='<div class="onhover"';
+		projectname += '<h1>';
+		projectname += '<span class="num">09</span> Quotes';
+		projectname += '</h1></div>';
+		$(this).append(projectname);
+});
+
+
+$(".nine").mouseleave(function(){
+		
+		$(".onhover").remove();
+});
+
+$(".ten").mouseenter(function(){
+		projectname = "";
+		projectname ='<div class="onhover"';
+		projectname += '<h1>';
+		projectname += '<span class="num">10</span> Rock-paper-scissors';
+		projectname += '</h1></div>';
+		$(this).append(projectname);
+});
+
+
+$(".ten").mouseleave(function(){
+		
+		$(".onhover").remove();
+});
+
+$(".eleven").mouseenter(function(){
+		projectname = "";
+		projectname ='<div class="onhover"';
+		projectname += '<h1>';
+		projectname += '<span class="num">11</span> quiz';
+		projectname += '</h1></div>';
+		$(this).append(projectname);
+});
+
+
+$(".eleven").mouseleave(function(){
+		
+		$(".onhover").remove();
+});
+
+
+
 
 
 
