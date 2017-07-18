@@ -132,6 +132,31 @@ body{
 				no-repeat center center;
 	float:left;
 }
+.eight{
+	background: url("../images/Screen Shot 2017-07-19 at 1.15.39 AM.png")
+				no-repeat center center;
+	float:left;
+}
+
+.nine{
+	background: url("../images/Screen Shot 2017-07-19 at 1.16.05 AM.png")
+				no-repeat center center;
+	float:left;
+}
+
+.ten{
+	background: url("../images/Screen Shot 2017-07-19 at 1.16.21 AM.png")
+				no-repeat center center;
+	float:left;
+}
+
+.eleven{
+	background: url("../images/Screen Shot 2017-07-19 at 1.16.53 AM.png")
+				no-repeat center center;
+	float:left;
+}
+
+
 
 
 .onhover{
