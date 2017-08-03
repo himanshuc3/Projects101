@@ -45,6 +45,18 @@ body{
 	font-size: 1.5rem;
 }
 
+.portfoliolink a::after{
+	display:block;
+	width:2vw;
+	height:5px;
+	background-color: white;
+	text-align:center;
+
+
+}
+
+
+
 .blog{
 	position:absolute;
 	right:5vw;
